@@ -1,0 +1,87 @@
+#topBarWrapper {
+  width: 100%;
+  line-height: 40px;
+  height: 40px;
+  background-color: #333;
+}
+#topBarWrapper .topBar .service {
+  float: left;
+}
+#topBarWrapper .topBar .service .app {
+  position: relative;
+}
+#topBarWrapper .topBar .service .app .qrcode {
+  display: none;
+  width: 124px;
+  height: 148px;
+  left: -38px;
+  background-color: #fff;
+  line-height: 1;
+  text-align: center;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  position: absolute;
+}
+#topBarWrapper .topBar .service .app .qrcode img {
+  width: 90px;
+  margin: 17px;
+  margin-bottom: 10px;
+}
+#topBarWrapper .topBar .service .app .qrcode span {
+  color: #000;
+  font-size: 14px;
+}
+#topBarWrapper .topBar .service .app::after {
+  content: '';
+  display: none;
+  position: absolute;
+  width: 0;
+  height: 0;
+  border: 8px solid transparent;
+  border-top: none;
+  border-bottom-color: #fff;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+#topBarWrapper .topBar .service .app:hover .qrcode {
+  display: block;
+}
+#topBarWrapper .topBar .shopCart {
+  float: right;
+}
+#topBarWrapper .topBar .userInfo {
+  float: right;
+}
+#topBarWrapper .topBar li {
+  float: left;
+}
+#topBarWrapper .topBar a {
+  font-size: 12px;
+  color: #b0b0b0;
+  display: block;
+}
+#topBarWrapper .topBar a:hover {
+  color: aliceblue;
+}
+#topBarWrapper .topBar .line {
+  font-size: 12px;
+  color: #726666;
+  margin: 0 8px;
+}
+#topBarWrapper .topBar .shopCart {
+  margin-left: 26px;
+}
+#topBarWrapper .topBar .shopCart a {
+  width: 120px;
+  background-color: #424242;
+  display: block;
+  text-align: center;
+}
+#topBarWrapper .topBar .shopCart li {
+  margin-right: 4px;
+}
+#topBarWrapper .topBar .shopCart:hover a {
+  background-color: #fff;
+  color: #ff6700;
+}
